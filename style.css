@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f5f6f9;
+}
+.box-shadow {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.11);
+  padding: 15px;
+  background: #ffffff;
+}
+.green-rating {
+  background: #4ca72c;
+  color: #ffffff;
+  width: fit-content;
+  padding: 2px 4px;
+  border-radius: 5px;
+  margin: 0 2rem 1rem 0;
+}
+.badge {
+  font-size: 14px;
+  color: #4ca72c;
+}
+.fa-check-circle {
+  color: #4ca72c;
+  margin: 0 0 0 10px;
+}
+.fa-star {
+  color: gold;
+  margin: 0 2px;
+}
+.rate {
+  background-color: transparent;
+  border: 1px solid #d8d8d8;
+  color: rgba(34, 52, 87, 0.54);
+  margin: 0 0 0 8px;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.rate:hover {
+  color: #000000;
+  background: #d3d4d5;
+}
+.fa-clock,
+.fa-location-dot {
+  color: #8d8d8e;
+  margin: 0 10px 0 0;
+}
+.direction-btn {
+  padding: 8px;
+  border: 1px solid #ed1c24;
+  background: #ffffff;
+  color: #ed1c24;
+  padding: 10px 50px;
+  font-weight: 700;
+}
+.direction-btn:hover {
+  background: #ed1c24;
+  color: #ffffff;
+  transition: 0.3s ease-in;
+}
+.img-border {
+  border-radius: 10px;
+}
+.testimonial-div {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  min-height: 150px;
+}
+.testimonial-img {
+  width: 40px;
+}
+.testimonial-div p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin: 15px 0 0 0;
+  text-align: left;
+}
+.client-div,
+.service-div {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 1px 0 rgba(0, 0, 0, 0.17);
+}
+.client-div img {
+  width: 100%;
+  height: 85px;
+  display: block;
+  margin: 10px auto;
+  object-fit: contain;
+  padding: 20px 20px 5px 20px;
+}
+.client-div p {
+  text-align: center;
+  color: #130f268a;
+}
+.service-div {
+  padding: 20px;
+}
+.book-now-btn {
+  background: #ed1c24;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.tyre-brand {
+  width: 120px;
+  display: block;
+  margin: 20px auto 0;
+}
+.tyre-size-p {
+  color: #130f268a;
+  text-align: left;
+}
+.star-2 {
+  color: #ffffff !important;
+}
+.tyre-img {
+  width: 125px;
+  display: block;
+  margin: 20px auto;
+}
+.box-shadow-2 {
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 1px 4px #0000001c;
+}
+.relative {
+  position: relative;
+}
+.abs-text {
+  position: absolute;
+  right: 0;
+  background: #ffca2845;
+  top: 0;
+  font-weight: bold;
+}
+.star-3 {
+  color: #000000;
+}
+.view-more {
+  color: #0000008a;
+  border: 1px solid #0000008a;
+  width: fit-content;
+  text-align: center;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 8px 16px;
+}
+.list-style-none {
+  list-style: none;
+}
+.fa-check {
+  color: green;
+  margin: 0 8px 0 0;
+}
