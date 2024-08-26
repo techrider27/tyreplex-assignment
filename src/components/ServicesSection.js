@@ -11,14 +11,14 @@ const ServicesSection = () => {
               <b>Services Offered by this dealer</b>
             </p>
             <div className="row">
-              <div className="col-lg-3 text-center mb-3">
+              <div className="col-lg-3 col-md-6 text-center mb-3">
                 <div className="service-div">
                   <img src={serviceImage} />
                   <h6 className="fw-bold my-3">Wheel Balancing</h6>
                   <BookNowBtn />
                 </div>
               </div>
-              <div className="col-lg-3 text-center mb-3">
+              <div className="col-lg-3 col-md-6 text-center mb-3">
                 <div className="service-div">
                   <img src={serviceImage2} />
                   <h6 className="fw-bold my-3">Wheel Balancing</h6>
